@@ -89,5 +89,103 @@ const data = [
     description: "Destruye todos los monstruos de tu adversario",
     image: "../assets/imageRaigeki.jpg",
   },
+  {
+    id: "9",
+    monstruoattr: "Maquina",
+    monstruo: "Efecto",
+    nivel: "5",
+    name: "Cyber Dragon",
+    atk: "2100",
+    def: "1600",
+    attribute: "Luz",
+    description:
+      "Si tu adversario controla un monstruo, puedes invocar de Modo Especial (Desde tu Mano)",
+    image: "../assets/imageDragonCibernetico.jpg",
+  },
+  {
+    id: "10",
+    tipo: "Spell",
+
+    name: "Tifon Del Espacio Mistico",
+
+    attribute: "Spell",
+    description:
+      "Selecciona 1 Magica/Trampa en el campo; destruye ese objetivo",
+    image: "../assets/imageTifon.jpg",
+  },
+  {
+    id: "11",
+    tipo: "Trampa",
+
+    name: "Fuerza de Espejo",
+
+    attribute: "Trampa",
+    description:
+      "Cuando el mostruo de tu adversario declara un ataque:destruye todods los monstruos en Posicion de Ataque de tu adversario",
+    image: "../assets/imageMirrorForce.jpg",
+  },
+  {
+    id: "12",
+    monstruoattr: "Hada",
+    monstruo: "Efecto",
+    nivel: "1",
+    name: "Kuriboh Alado",
+    atk: "300",
+    def: "200",
+    attribute: "Luz",
+    description:
+      "Si esta carta en el Campo es destruida y mandada al Cementerio: por el resto de este turno no recibes daño de batalla.",
+    image: "../assets/imageKuribohAlado.jpg",
+  },
+  {
+    id: "13",
+    tipo: "Spell",
+
+    name: "Agujero Oscuro",
+
+    attribute: "Spell",
+    description: "Destruye todos los monstruos en el campo",
+    image: "../assets/imageDarkHole.jpg",
+  },
+  {
+    id: "14",
+    tipo: "Spell",
+
+    name: "Unidos Resistiremos",
+
+    attribute: "Spell",
+    description:
+      "Selecciona un monstruo en el campo:Por cada carta monstruo que controles este monstruo gana 800ATK y 800DEF",
+    image: "../assets/imageSiempreUnidos.jpg",
+  },
+  {
+    id: "15",
+    tipo: "Spell",
+
+    name: "Renace el Monstruo",
+
+    attribute: "Spell",
+    description:
+      "Selecciona 1 monstruo en cualquier Cementerio; Invócalo de Modo Especial.",
+    image: "../assets/imageMonsterReborn.jpg",
+  },
+  {
+    id: "16",
+    tipo: "Trampa",
+    name: "Kunai Con Cadena",
+    attribute: "Trampa",
+    description:
+      "Activa 1 o ambos de estos efectos (simultaneamente): Cuando un monstruo del adversario declara un ataque selecciona el monstruo atacante;cambia ese objetivo a Posicion de Defensa. /Selecciona 1 monstruoo boca arriba que controles;equipa esta carta a ese objetivo.Este gana 500ATK",
+    image: "../assets/imageKunai.jpg",
+  },
+  {
+    id: "17",
+    tipo: "Spell",
+    name: "Viento Fuerte",
+    attribute: "Spell",
+    description:
+      "Devuelve a la mano todas las cartas magicas y de trampas de los jugadores",
+    image: "../assets/imageVientoFuerte.jpg",
+  },
 ];
 module.exports = data;
