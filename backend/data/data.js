@@ -1,7 +1,10 @@
 const data = [
   {
     id: "1",
-    tipo: "DIOS",
+    monstruo: "DIOS",
+    nivel: "10",
+    atk: "XXXX",
+    def: "XXXX",
     name: "Slifer el Dragon del Cielo",
     attribute: "DIOS",
     description:
@@ -10,7 +13,10 @@ const data = [
   },
   {
     id: "2",
-    tipo: "DIOS",
+    monstruo: "DIOS",
+    nivel: "10",
+    atk: "XXXX",
+    def: "XXXX",
     name: "Obelisk el Atormentador",
     attribute: "DIOS",
     description:
@@ -19,7 +25,10 @@ const data = [
   },
   {
     id: "3",
-    tipo: "DIOS",
+    monstruo: "DIOS",
+    nivel: "10",
+    atk: "XXXX",
+    def: "XXXX",
     name: "El Dragon Alado de Ra",
     attribute: "DIOS",
     description:
@@ -28,8 +37,12 @@ const data = [
   },
   {
     id: "4",
-    tipo: "Monstruo Normal",
+    monstruoattr: "Lanzador de Conjuros",
+    monstruo: "Normal",
+    nivel: "7",
     name: "Dark Magician",
+    atk: "2500",
+    def: "2000",
     attribute: "Dark",
     description:
       "El más grande de los magos en cuanto al ataque y la defensa.  ",
@@ -37,16 +50,24 @@ const data = [
   },
   {
     id: "5",
-    tipo: "Monstruo Normal",
+    monstruoattr: "Dragon",
+    monstruo: "Normal",
+    nivel: "7",
     name: "Red Eyes",
+    atk: "2400",
+    def: "",
     attribute: "Dark",
     description: "Un dragon feroz con un ataque mortal ",
     image: "../assets/imageRedEyes.jpg",
   },
   {
     id: "6",
-    tipo: "Monstruo Efecto",
+    monstruoattr: "Roca",
+    monstruo: "Efecto",
+    nivel: "3",
     name: "Cyber Jarra",
+    atk: "900",
+    def: "900",
     attribute: "Dark",
     description:
       "VOLTEO: Destruye todos los monstruos en el Campo, y después, ambos jugadores muestran las 5 cartas de la parte superior de sus Decks, y después Invocan de Modo Especial todos los monstruos mostrados que sean de Nivel 4 o menor, en Posición de Ataque boca arriba o en Posición de Defensa boca abajo, y además añaden el resto de las cartas a sus manos. (Si algún jugador tiene menos de 5 cartas en su Deck, muestra tantas como sea posible). ",
@@ -56,7 +77,7 @@ const data = [
     id: "7",
     tipo: "Spell",
     name: "Pot of Greed",
-    attribute: "none",
+    attribute: "Spell",
     description: "Roba 2 cartas",
     image: "../assets/imagePotOfGreed.jpg",
   },
@@ -64,7 +85,7 @@ const data = [
     id: "8",
     tipo: "Spell",
     name: "Raigeki",
-    attribute: "none",
+    attribute: "Spell",
     description: "Destruye todos los monstruos de tu adversario",
     image: "../assets/imageRaigeki.jpg",
   },
